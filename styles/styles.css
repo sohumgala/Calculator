@@ -1,0 +1,80 @@
+.button {
+    outline: none;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: grey;
+}
+.wrap {
+    width: 400px;
+    height: 600px;
+    border-color: black;
+    border-width: 30px;
+    border-style: solid;
+    margin: auto;
+    margin-top: 50px;
+    background-color: slategray;
+}
+.nums {
+    display: inline-grid;
+    width: 400px;
+    height: 500px;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(4, auto);
+}
+.digit {
+    width: 100px;
+    height: 100px;
+    grid-row-start: auto;
+    grid-column-start: auto;
+    border-radius: 50%;
+    background-color: blue;
+    font-size: 45px;
+    color: white;
+}
+.display {
+    width: 380px;
+    height: 70px;
+    font-size: 50px;
+    padding: 10px;
+    text-align: right;
+    border-bottom: 10px solid red;
+    background-color: slateblue;
+    color: yellow;
+}
+.operation {
+    width: 100px;
+    height: 100px;
+    grid-row-start: auto;
+    grid-column-start: auto;
+    font-size: 30px;
+    background-color: bisque;
+}
+.factorial {
+    width: 100px;
+    height: 100px;
+    grid-row-start: auto;
+    grid-column-start: auto;
+    font-size: 30px;
+    background-color: bisque;
+}
+.equals {
+    width: 100px;
+    height: 100px;
+    grid-row-start: auto;
+    grid-column-start: auto;
+    background-color: gold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.clear {
+    width: 100px;
+    height: 100px;
+    grid-row-start: auto;
+    grid-column-start: auto;
+    background-color: greenyellow;
+    font-size: 30px;
+    border-radius: 10px;
+}
